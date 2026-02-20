@@ -2,7 +2,7 @@
   "name": "feedback-frontend",
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://angelcj24.github.io/AI-feedback-App",
+  "homepage": "https://angelcj24.github.io/ai-feedback-app",
   "scripts": {
     "dev": "vite",
     "build": "npx vite build",
@@ -21,5 +21,8 @@
     "vite": "^4.0.0",
     "@vitejs/plugin-react": "^4.0.0"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "engines": {
+    "node": "18.x"
+  }
 }
