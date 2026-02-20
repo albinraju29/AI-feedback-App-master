@@ -1,8 +1,3 @@
-# Backup your current file just in case
-cp vercel.json vercel.json.backup
-
-# Create a brand new file
-cat > vercel.json << 'EOF'
 {
   "builds": [
     {
