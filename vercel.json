@@ -1,11 +1,15 @@
+# Backup your current file just in case
+cp vercel.json vercel.json.backup
+
+# Create a brand new file
+cat > vercel.json << 'EOF'
 {
   "builds": [
     {
       "src": "frontend/package.json",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "dist",
-        "buildCommand": "cd frontend && npm install && npm run build"
+        "distDir": "dist"
       }
     },
     {
@@ -24,3 +28,4 @@
     }
   ]
 }
+EOF
