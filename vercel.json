@@ -1,9 +1,4 @@
 {
-  "functions": {
-    "backend/server.js": {
-      "runtime": "nodejs20.x"
-    }
-  },
   "builds": [
     {
       "src": "frontend/**",
